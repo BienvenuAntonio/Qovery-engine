@@ -6,11 +6,16 @@
   text-decoration: none;
 }
 
+body {
+  background-color: #f9f9fd;
+}
+
 /* Hero banner */
 
 .q-hero {
   background-color: #151b2b;
-  height: 86vh;
+  width: 100vw;
+  height: 926px;
   padding-top: 41px;
 }
 
@@ -104,10 +109,6 @@
 
 /* How section */
 
-.how-usage-bg {
-  background: #f9f9fd;
-}
-
 .q-how {
   display: flex;
   flex-direction: column;
@@ -177,6 +178,7 @@
   display: flex;
   gap: 24px;
   padding-top: 48px;
+  margin-bottom: 110px;
 }
 
 .usage-cta a {
@@ -188,4 +190,104 @@
 
 .usage-cta .git-btn {
   width: 193px;
+}
+
+/* botton Illu */
+
+.top-box {
+  display: flex;
+  justify-content: space-between;
+  width: 1059px;
+  height: 463px;
+  margin: 0 auto 63px;
+}
+
+.q-illu-box h1 {
+  font-family: "HK Grotesk";
+  font-weight: 700;
+  font-size: 24px;
+  color: #454658;
+  margin-top: 24px;
+}
+
+.q-illu-box p {
+  font-family: "SF UI Display";
+  font-weight: 300;
+  font-size: 16px;
+  color: #454658;
+  margin: 24px 0 12px;
+}
+
+.q-illu-box span {
+  font-family: "SF UI Display";
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #5d64d2;
+}
+
+.right-illu {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+}
+
+.right-illu img {
+  width: 156px;
+}
+
+.left-illu {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+}
+
+.left-illu img {
+  width: 305px;
+}
+
+.bot-box {
+  display: flex;
+  justify-content: space-between;
+  width: 1059px;
+  height: 479px;
+  margin: auto;
+}
+
+.bot-right-illu {
+  display: flex;
+  flex-direction: column;
+  width: 428px;
+}
+
+.bot-right-illu img {
+  width: 262px;
+}
+
+.bot-left-illu {
+  display: flex;
+  flex-direction: column;
+  width: 428px;
+}
+
+.bot-left-illu img {
+  width: 421px;
+}
+
+/* Footer */
+
+.footer-text h1 {
+  width: 343px;
+  font-family: "HK Grotesk";
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #454658;
+  margin: 191px auto 158px;
+}
+
+.footer-bg {
+  width: 100vw;
+  height: 169px;
+  background-color: #151b2b;
 }
